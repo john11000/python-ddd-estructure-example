@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-ddd-estructure-example"
+version = "0.1.0"
+description = "A simple ddd with flask estructure for python"
+authors = ["Jhon Anderson"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+start = "app.main:main_function"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

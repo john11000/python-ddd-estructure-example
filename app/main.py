@@ -1,7 +1,7 @@
 from domain.models.producto import Producto
 from domain.models.cliente import Cliente
 from domain.services.servicio_pedido import ServicioPedido
-from infraestructure.database.repository.repositorio_pedidos import RepositorioPedidosEnMemoria
+from infrastructure.database.repository.repositorio_pedidos import RepositorioPedidosEnMemoria # type: ignore
 
 # Crear repositorio y servicio
 # repositorio = RepositorioPedidosEnMemoria()
