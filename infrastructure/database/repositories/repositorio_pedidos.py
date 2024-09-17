@@ -1,5 +1,5 @@
 from domain.models.pedido import Pedido
-from domain.repository.repositorio_pedidos import RepositorioPedidos
+from domain.repositories.repositorio_pedidos import RepositorioPedidos
 
 class RepositorioPedidosEnMemoria(RepositorioPedidos):
     def __init__(self):

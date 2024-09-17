@@ -1,7 +1,7 @@
 from domain.models.cliente import Cliente
 from domain.models.pedido import Pedido
 from domain.models.producto import Producto
-from domain.repository.repositorio_pedidos import RepositorioPedidos
+from domain.repositories.repositorio_pedidos import RepositorioPedidos
 
 class ServicioPedido:
     def __init__(self):

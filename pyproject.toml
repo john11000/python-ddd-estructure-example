@@ -1,15 +1,16 @@
 [tool.poetry]
-name = "python-ddd-estructure-example"
+name = "app"
 version = "0.1.0"
-description = "A simple ddd with flask estructure for python"
-authors = ["Jhon Anderson"]
+description = ""
+authors = ["jhon anderson <ax6@ax.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
-
-[tool.poetry.scripts]
-start = "app.main:main_function"
+python = "^3.12"
+fastapi = "^0.114.2"
+uvicorn = "^0.30.6"
+flask = "^3.0.3"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
